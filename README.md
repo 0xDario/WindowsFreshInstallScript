@@ -41,7 +41,7 @@ Signal,
 Spotify,
 Steam,
 Teams,
-TeamViewer
+TeamViewer,
 Telegram,
 Terminal,
 TreeSize Free,
