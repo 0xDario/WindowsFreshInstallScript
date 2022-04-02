@@ -1,7 +1,7 @@
 # Instructions
 1. Get [Winget CLI](https://github.com/microsoft/winget-cli/releases) 
    - download and install the latest release .msix bundle
-2. Get [App Installer](https://www.microsoft.com/store/productId/9NBLGGH5R558) from the Micorosoft Store
+2. Get [App Installer](https://www.microsoft.com/store/productId/9NBLGGH5R558) from the Microsoft Store
 3. Run [startFromScratch.bat](./startFromScratch.bat) batch script _(Edit the startFromScratch.bat file to add/remove applications for install, See template below)_
 4. Install any remaining applications manually
 
