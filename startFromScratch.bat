@@ -64,10 +64,6 @@ REM Logitech G HUB
 winget install -e Logitech.GHUB -h
 if %ERRORLEVEL% EQU 0 Echo Logitech G HUB installed successfully.
 
-REM Logitech Gaming Software
-winget install -e Logitech.LGS -h
-if %ERRORLEVEL% EQU 0 Echo Logitech Gaming Software installed successfully.
-
 REM Malwarebytes
 winget install -e Malwarebytes.Malwarebytes -h
 if %ERRORLEVEL% EQU 0 Echo Malwarebytes installed successfully.
