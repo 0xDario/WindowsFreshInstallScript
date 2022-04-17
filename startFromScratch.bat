@@ -28,10 +28,6 @@ REM Discord
 winget install -e Discord.Discord -h
 if %ERRORLEVEL% EQU 0 Echo Discord installed successfully.
 
-REM Deluge BitTorrent Client
-winget install -e DelugeTeam.Deluge -h
-if %ERRORLEVEL% EQU 0 Echo Deluge BitTorrent Client installed successfully.
-
 REM Eraser  
 winget install -e Eraser.Eraser -h
 if %ERRORLEVEL% EQU 0 Echo Eraser installed successfully.
@@ -76,6 +72,10 @@ REM PowerToys
 winget install -e Microsoft.PowerToys -h
 if %ERRORLEVEL% EQU 0 Echo Powertoys installed successfully.
 
+REM qBittorrent
+winget install -e qBittorrent.qBittorrent -h
+if %ERRORLEVEL% EQU 0 Echo qBittorrent installed successfully.
+
 REM Signal
 winget install -e OpenWhisperSystems.Signal -h
 if %ERRORLEVEL% EQU 0 Echo Signal installed successfully.
@@ -115,6 +115,10 @@ if %ERRORLEVEL% EQU 0 Echo TreeSizeFree installed successfully.
 REM Ubuntu  
 winget install -e Canonical.Ubuntu -h
 if %ERRORLEVEL% EQU 0 Echo Ubuntu installed successfully.
+
+REM VirtualBox
+winget install -e Oracle.VirtualBox -h
+if %ERRORLEVEL% EQU 0 Echo VirtualBox installed successfully.
 
 REM Visual Studio Code  
 winget install -e Microsoft.VisualStudioCode -h
