@@ -1,10 +1,10 @@
 @echo off
 
-REM 1Password 
+REM 1Password
 winget install -e AgileBits.1Password -h
 if %ERRORLEVEL% EQU 0 Echo 1Password installed successfully.
 
-REM 7Zip  
+REM 7Zip
 winget install -e 7zip.7zip -h
 if %ERRORLEVEL% EQU 0 Echo 7Zip installed successfully.
 
@@ -20,19 +20,19 @@ REM Brave
 winget install -e BraveSoftware.BraveBrowser -h
 if %ERRORLEVEL% EQU 0 Echo Brave installed successfully.
 
-REM Chrome  
+REM Chrome
 winget install -e Google.Chrome -h
 if %ERRORLEVEL% EQU 0 Echo Chrome installed successfully.
 
-REM Discord  
+REM Discord
 winget install -e Discord.Discord -h
 if %ERRORLEVEL% EQU 0 Echo Discord installed successfully.
 
-REM Eraser  
+REM Eraser
 winget install -e Eraser.Eraser -h
 if %ERRORLEVEL% EQU 0 Echo Eraser installed successfully.
 
-REM Etcher  
+REM Etcher
 winget install -e Balena.Etcher -h
 if %ERRORLEVEL% EQU 0 Echo Etcher installed successfully.
 
@@ -40,25 +40,29 @@ REM Firefox
 winget install -e Mozilla.Firefox -h
 if %ERRORLEVEL% EQU 0 Echo Firefox installed successfully.
 
-REM flux  
+REM flux
 winget install -e flux.flux -h
 if %ERRORLEVEL% EQU 0 Echo Flux installed successfully.
 
-REM Git  
+REM Git
 winget install -e Git.Git -h
 if %ERRORLEVEL% EQU 0 Echo Git installed successfully.
 
-REM GitHub Desktop  
+REM GitHub Desktop
 winget install -e GitHub.GitHubDesktop -h
 if %ERRORLEVEL% EQU 0 Echo GitHub Desktop installed successfully.
 
-REM Greenshot  
+REM Greenshot
 winget install -e Greenshot.Greenshot -h
 if %ERRORLEVEL% EQU 0 Echo Greenshot installed successfully.
 
-REM Logitech G HUB 
+REM Logitech G HUB
 winget install -e Logitech.GHUB -h
 if %ERRORLEVEL% EQU 0 Echo Logitech G HUB installed successfully.
+
+REM NordVPN
+winget install -e NordVPN.NordVPN -h
+if %ERRORLEVEL% EQU 0 Echo NordVPN installed successfully.
 
 REM Malwarebytes
 winget install -e Malwarebytes.Malwarebytes -h
@@ -68,7 +72,7 @@ REM OBS Studio
 winget install -e OBSProject.OBSStudio -h
 if %ERRORLEVEL% EQU 0 Echo OBS Studio installed successfully.
 
-REM PowerToys  
+REM PowerToys
 winget install -e Microsoft.PowerToys -h
 if %ERRORLEVEL% EQU 0 Echo Powertoys installed successfully.
 
@@ -84,7 +88,7 @@ REM Spotify
 winget install -e Spotify.Spotify -h
 if %ERRORLEVEL% EQU 0 Echo Spotify installed successfully.
 
-REM Steam 
+REM Steam
 winget install -e Valve.Steam -h
 if %ERRORLEVEL% EQU 0 Echo Steam installed successfully.
 
@@ -100,7 +104,7 @@ REM Telegram
 winget install -e Telegram.TelegramDesktop -h
 if %ERRORLEVEL% EQU 0 Echo Telegram installed successfully.
 
-REM Terminal  
+REM Terminal
 winget install -e Microsoft.WindowsTerminal -h
 if %ERRORLEVEL% EQU 0 Echo Terminal installed successfully.
 
@@ -108,11 +112,11 @@ REM Trading View
 winget install -e TradingView.TradingViewDesktop -h
 if %ERRORLEVEL% EQU 0 Echo Trading View installed successfully.
 
-REM TreeSize Free  
+REM TreeSize Free
 winget install -e JAMSoftware.TreeSize.Free -h
 if %ERRORLEVEL% EQU 0 Echo TreeSizeFree installed successfully.
 
-REM Ubuntu  
+REM Ubuntu
 winget install -e Canonical.Ubuntu -h
 if %ERRORLEVEL% EQU 0 Echo Ubuntu installed successfully.
 
@@ -120,7 +124,7 @@ REM VirtualBox
 winget install -e Oracle.VirtualBox -h
 if %ERRORLEVEL% EQU 0 Echo VirtualBox installed successfully.
 
-REM Visual Studio Code  
+REM Visual Studio Code
 winget install -e Microsoft.VisualStudioCode -h
 if %ERRORLEVEL% EQU 0 Echo Visual Studio Code installed successfully.
 
