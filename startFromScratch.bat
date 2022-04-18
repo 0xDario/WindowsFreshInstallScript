@@ -56,6 +56,10 @@ REM Greenshot
 winget install -e Greenshot.Greenshot -h
 if %ERRORLEVEL% EQU 0 Echo Greenshot installed successfully.
 
+REM grepWin
+winget install -e StefansTools.grepWin -h
+if %ERRORLEVEL% EQU 0 Echo grepWin installed successfully.
+
 REM Logitech G HUB
 winget install -e Logitech.GHUB -h
 if %ERRORLEVEL% EQU 0 Echo Logitech G HUB installed successfully.
