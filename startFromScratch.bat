@@ -12,6 +12,10 @@ REM Adobe Acrobat Reader DC
 winget install -e Adobe.Acrobat.Reader.64-bit
 if %ERRORLEVEL% EQU 0 Echo Adobe Acrobat Reader DC (64-bit) installed successfully.
 
+REM Android Studio
+winget install -e Google.AndroidStudio
+if %ERRORLEVEL% EQU 0 Echo Android Studio installed successfully.
+
 REM Bitcoin Core
 winget install -e BitcoinCoreProject.BitcoinCore -h
 if %ERRORLEVEL% EQU 0 Echo Bitcoin Core installed successfully.
@@ -27,10 +31,6 @@ if %ERRORLEVEL% EQU 0 Echo Chrome installed successfully.
 REM Discord
 winget install -e Discord.Discord -h
 if %ERRORLEVEL% EQU 0 Echo Discord installed successfully.
-
-REM Eraser
-winget install -e Eraser.Eraser -h
-if %ERRORLEVEL% EQU 0 Echo Eraser installed successfully.
 
 REM Etcher
 winget install -e Balena.Etcher -h
@@ -74,6 +74,10 @@ if %ERRORLEVEL% EQU 0 Echo Malwarebytes installed successfully.
 
 REM OBS Studio
 winget install -e OBSProject.OBSStudio -h
+if %ERRORLEVEL% EQU 0 Echo OBS Studio installed successfully.
+
+REM Obsidian
+winget install -e Obsidian.Obsidian -h
 if %ERRORLEVEL% EQU 0 Echo OBS Studio installed successfully.
 
 REM PowerToys
