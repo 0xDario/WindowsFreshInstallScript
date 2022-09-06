@@ -76,6 +76,10 @@ REM PowerToys
 winget install -e Microsoft.PowerToys -h
 if %ERRORLEVEL% EQU 0 Echo Powertoys installed successfully.
 
+REM PuTTY
+winget install -e PuTTY.PuTTY -h
+if %ERRORLEVEL% EQU 0 Echo PuTTY installed successfully.
+
 REM qBittorrent
 winget install -e qBittorrent.qBittorrent -h
 if %ERRORLEVEL% EQU 0 Echo qBittorrent installed successfully.
