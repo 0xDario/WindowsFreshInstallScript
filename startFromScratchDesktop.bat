@@ -142,7 +142,7 @@ if %ERRORLEVEL% EQU 0 Echo Visual Studio Code installed successfully.
 
 REM Visual Studio Community 2022
 winget install -e Microsoft.VisualStudio.2022.Community -h
-if %ERRORLEVEL% EQU 0 Echo Microsoft.VisualStudio.2019.Community installed successfully.
+if %ERRORLEVEL% EQU 0 Echo Microsoft.VisualStudio.2022.Community installed successfully.
 
 REM VLC
 winget install -e VideoLAN.VLC -h
