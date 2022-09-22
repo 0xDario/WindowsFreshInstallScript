@@ -52,6 +52,10 @@ REM GitHub Desktop
 winget install -e GitHub.GitHubDesktop -h
 if %ERRORLEVEL% EQU 0 Echo GitHub Desktop installed successfully.
 
+REM Gpg4win
+winget install -e GnuPG.Gpg4win -h
+if %ERRORLEVEL% EQU 0 Echo Gpg4win installed successfully.
+
 REM Greenshot
 winget install -e Greenshot.Greenshot -h
 if %ERRORLEVEL% EQU 0 Echo Greenshot installed successfully.
