@@ -40,6 +40,10 @@ REM flux
 winget install -e flux.flux -h
 if %ERRORLEVEL% EQU 0 Echo Flux installed successfully.
 
+REM GIMP
+winget install -e GIMP.GIMP -h
+if %ERRORLEVEL% EQU 0 Echo GIMP installed successfully.
+
 REM Git
 winget install -e Git.Git -h
 if %ERRORLEVEL% EQU 0 Echo Git installed successfully.
