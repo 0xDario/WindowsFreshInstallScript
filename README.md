@@ -20,6 +20,7 @@
 - 7Zip
 - Adobe Acrobat Reader DC
 - Android Studio
+- Anaconda
 - Bitcoin Core
 - Brave
 - Chrome

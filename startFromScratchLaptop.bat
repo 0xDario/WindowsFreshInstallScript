@@ -12,6 +12,10 @@ REM Adobe Acrobat Reader DC
 winget install -e Adobe.Acrobat.Reader.64-bit
 if %ERRORLEVEL% EQU 0 Echo Adobe Acrobat Reader DC (64-bit) installed successfully.
 
+REM Anaconda
+winget install -e Anaconda.Anaconda3
+if %ERRORLEVEL% EQU 0 Echo Anaconda installed successfully.
+
 REM Android Studio
 winget install -e Google.AndroidStudio
 if %ERRORLEVEL% EQU 0 Echo Android Studio installed successfully.
