@@ -76,6 +76,10 @@ REM Obsidian
 winget install -e Obsidian.Obsidian -h
 if %ERRORLEVEL% EQU 0 Echo OBS Studio installed successfully.
 
+REM Postman
+winget install -e Postman.Postman -h
+if %ERRORLEVEL% EQU 0 Echo Postman installed successfully.
+
 REM PowerToys
 winget install -e Microsoft.PowerToys -h
 if %ERRORLEVEL% EQU 0 Echo Powertoys installed successfully.
