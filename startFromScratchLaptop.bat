@@ -12,16 +12,12 @@ REM Adobe Acrobat Reader DC
 winget install -e Adobe.Acrobat.Reader.64-bit
 if %ERRORLEVEL% EQU 0 Echo Adobe Acrobat Reader DC (64-bit) installed successfully.
 
-REM Anaconda
-winget install -e Anaconda.Anaconda3
-if %ERRORLEVEL% EQU 0 Echo Anaconda installed successfully.
-
 REM Android Studio
 winget install -e Google.AndroidStudio
 if %ERRORLEVEL% EQU 0 Echo Android Studio installed successfully.
 
 REM Brave
-winget install -e BraveSoftware.BraveBrowser -h
+winget install -e Brave.Brave -h
 if %ERRORLEVEL% EQU 0 Echo Brave installed successfully.
 
 REM Chrome
@@ -52,10 +48,6 @@ REM Git
 winget install -e Git.Git -h
 if %ERRORLEVEL% EQU 0 Echo Git installed successfully.
 
-REM GitHub Desktop
-winget install -e GitHub.GitHubDesktop -h
-if %ERRORLEVEL% EQU 0 Echo GitHub Desktop installed successfully.
-
 REM Gpg4win
 winget install -e GnuPG.Gpg4win -h
 if %ERRORLEVEL% EQU 0 Echo Gpg4win installed successfully.
@@ -67,10 +59,6 @@ if %ERRORLEVEL% EQU 0 Echo Greenshot installed successfully.
 REM grepWin
 winget install -e StefansTools.grepWin -h
 if %ERRORLEVEL% EQU 0 Echo grepWin installed successfully.
-
-REM NordVPN
-winget install -e NordVPN.NordVPN -h
-if %ERRORLEVEL% EQU 0 Echo NordVPN installed successfully.
 
 REM Malwarebytes
 winget install -e Malwarebytes.Malwarebytes -h
@@ -107,10 +95,6 @@ if %ERRORLEVEL% EQU 0 Echo Signal installed successfully.
 REM Spotify
 winget install -e Spotify.Spotify -h
 if %ERRORLEVEL% EQU 0 Echo Spotify installed successfully.
-
-REM Teams
-winget install -e Microsoft.Teams -h
-if %ERRORLEVEL% EQU 0 Echo Microsoft Teams installed successfully.
 
 REM TeamViewer
 winget install -e TeamViewer.TeamViewer -h
