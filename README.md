@@ -15,47 +15,6 @@
  search for specific app via application name
   
       winget search {application name}
-# List of Applications in [startFromScratchDesktop.bat](./startFromScratchDesktop.bat) Script
-- 1Password
-- 7Zip
-- Adobe Acrobat Reader DC
-- Android Studio
-- Anaconda
-- Bitcoin Core
-- Brave
-- Chrome
-- Discord
-- Etcher
-- Firefox
-- flux
-- Git
-- GitHub Desktop
-- Gpg4win
-- Greenshot
-- grepWin
-- Logitech G HUB
-- NordVPN
-- Malwarebytes
-- OBS Studio
-- Obsidian
-- Postman
-- PowerToys
-- PuTTY
-- qBittorrent
-- Signal
-- Spotify
-- Steam
-- Teams
-- TeamViewer
-- Telegram
-- Terminal
-- Trading View
-- TreeSize Free
-- Ubuntu
-- VirtualBox
-- Visual Studio Code
-- Visual Studio Community 2022
-- VLC
 
 # Additional Links for Downloads
 - [Focusrite Driver - 2nd Gen](https://downloads.focusrite.com/focusrite/scarlett-2nd-gen/scarlett-2i2-2nd-gen)
