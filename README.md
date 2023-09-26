@@ -19,5 +19,3 @@
 # Additional Links for Downloads
 - [Focusrite Driver - 2nd Gen](https://downloads.focusrite.com/focusrite/scarlett-2nd-gen/scarlett-2i2-2nd-gen)
 - [Battle.net](https://www.blizzard.com/en-us/download/confirmation?product=bnetdesk)
-- [Cryptowatch Destkop](https://cryptowat.ch/apps/desktop)
-- [Interactive Brokers Trader WorkStation](https://www.interactivebrokers.com/en/index.php?f=14099#tws-software)
