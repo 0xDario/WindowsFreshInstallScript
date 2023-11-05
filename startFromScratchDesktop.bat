@@ -72,6 +72,18 @@ REM Malwarebytes
 winget install -e Malwarebytes.Malwarebytes -h
 if %ERRORLEVEL% EQU 0 Echo Malwarebytes installed successfully.
 
+REM MullvadVPN
+winget install -e MullvadVPN.MullvadVPN -h
+if %ERRORLEVEL% EQU 0 Echo MullvadVPN installed successfully.
+
+REM Microsoft SQL Server 2019 Developer
+winget install -e Microsoft.SQLServer.2019.Developer -h
+if %ERRORLEVEL% EQU 0 Echo Microsoft SQL Server 2019 Developer installed successfully.
+
+REM Microsoft SQL Server Management Studio
+winget install -e Microsoft.SQLServerManagementStudio -h
+if %ERRORLEVEL% EQU 0 Echo Microsoft SQL Server Management Studio installed successfully.
+
 REM OBS Studio
 winget install -e OBSProject.OBSStudio -h
 if %ERRORLEVEL% EQU 0 Echo OBS Studio installed successfully.
