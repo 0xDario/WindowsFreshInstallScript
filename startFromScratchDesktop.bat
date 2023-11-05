@@ -76,6 +76,18 @@ REM MullvadVPN
 winget install -e MullvadVPN.MullvadVPN -h
 if %ERRORLEVEL% EQU 0 Echo MullvadVPN installed successfully.
 
+REM MusicBee
+winget install -e MusicBee.MusicBee -h
+if %ERRORLEVEL% EQU 0 Echo MusicBee installed successfully.
+
+REM Microsoft Visual Studio Code
+winget install -e Microsoft.VisualStudioCode -h
+if %ERRORLEVEL% EQU 0 Echo Visual Studio Code installed successfully.
+
+REM Microsoft Visual Studio Community 2022
+winget install -e Microsoft.VisualStudio.2022.Community -h
+if %ERRORLEVEL% EQU 0 Echo Microsoft.VisualStudio.2022.Community installed successfully.
+
 REM Microsoft SQL Server 2019 Developer
 winget install -e Microsoft.SQLServer.2019.Developer -h
 if %ERRORLEVEL% EQU 0 Echo Microsoft SQL Server 2019 Developer installed successfully.
@@ -120,6 +132,10 @@ REM Steam
 winget install -e Valve.Steam -h
 if %ERRORLEVEL% EQU 0 Echo Steam installed successfully.
 
+REM Sourcetree
+winget install -e Atlassian.Sourcetree -h
+if %ERRORLEVEL% EQU 0 Echo Sourcetree installed successfully.
+
 REM TeamViewer
 winget install -e TeamViewer.TeamViewer -h
 if %ERRORLEVEL% EQU 0 Echo  TeamViewer installed successfully.
@@ -148,13 +164,6 @@ REM VirtualBox
 winget install -e Oracle.VirtualBox -h
 if %ERRORLEVEL% EQU 0 Echo VirtualBox installed successfully.
 
-REM Visual Studio Code
-winget install -e Microsoft.VisualStudioCode -h
-if %ERRORLEVEL% EQU 0 Echo Visual Studio Code installed successfully.
-
-REM Visual Studio Community 2022
-winget install -e Microsoft.VisualStudio.2022.Community -h
-if %ERRORLEVEL% EQU 0 Echo Microsoft.VisualStudio.2022.Community installed successfully.
 
 REM VLC
 winget install -e VideoLAN.VLC -h
