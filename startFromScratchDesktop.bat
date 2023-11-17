@@ -12,14 +12,6 @@ REM Adobe Acrobat Reader DC
 winget install -e Adobe.Acrobat.Reader.64-bit
 if %ERRORLEVEL% EQU 0 Echo Adobe Acrobat Reader DC (64-bit) installed successfully.
 
-REM Android Studio
-winget install -e Google.AndroidStudio
-if %ERRORLEVEL% EQU 0 Echo Android Studio installed successfully.
-
-REM Bitcoin Core
-winget install -e BitcoinCoreProject.BitcoinCore -h
-if %ERRORLEVEL% EQU 0 Echo Bitcoin Core installed successfully.
-
 REM Brave
 winget install -e Brave.Brave -h
 if %ERRORLEVEL% EQU 0 Echo Brave installed successfully.
@@ -27,6 +19,14 @@ if %ERRORLEVEL% EQU 0 Echo Brave installed successfully.
 REM Chrome
 winget install -e Google.Chrome -h
 if %ERRORLEVEL% EQU 0 Echo Chrome installed successfully.
+
+REM CPUID CPU-Z
+winget install -e CPUID.CPU-Z -h
+if %ERRORLEVEL% EQU 0 Echo CPU-Z installed successfully.
+
+REM CPUID HWMonitor
+winget install -e CPUID.HWMonitor -h
+if %ERRORLEVEL% EQU 0 Echo HWMonitor installed successfully.
 
 REM Discord
 winget install -e Discord.Discord -h
