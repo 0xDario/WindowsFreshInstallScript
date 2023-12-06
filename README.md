@@ -19,3 +19,4 @@
 # Additional Links for Downloads
 - [Focusrite Driver - 2nd Gen](https://downloads.focusrite.com/focusrite/scarlett-2nd-gen/scarlett-2i2-2nd-gen)
 - [Battle.net](https://www.blizzard.com/en-us/download/confirmation?product=bnetdesk)
+- [JetBrains Toolbox]https://www.jetbrains.com/toolbox-app/)
