@@ -148,6 +148,10 @@ REM Terminal
 winget install -e Microsoft.WindowsTerminal -h
 if %ERRORLEVEL% EQU 0 Echo Terminal installed successfully.
 
+REM TickTick
+winget install -e Appest.TickTick -h
+if %ERRORLEVEL% EQU 0 Echo  TeamViewer installed successfully.
+
 REM Trading View
 winget install -e TradingView.TradingViewDesktop -h
 if %ERRORLEVEL% EQU 0 Echo Trading View installed successfully.

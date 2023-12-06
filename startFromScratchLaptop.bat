@@ -12,10 +12,6 @@ REM Adobe Acrobat Reader DC
 winget install -e Adobe.Acrobat.Reader.64-bit
 if %ERRORLEVEL% EQU 0 Echo Adobe Acrobat Reader DC (64-bit) installed successfully.
 
-REM Android Studio
-winget install -e Google.AndroidStudio
-if %ERRORLEVEL% EQU 0 Echo Android Studio installed successfully.
-
 REM Brave
 winget install -e Brave.Brave -h
 if %ERRORLEVEL% EQU 0 Echo Brave installed successfully.
@@ -23,6 +19,14 @@ if %ERRORLEVEL% EQU 0 Echo Brave installed successfully.
 REM Chrome
 winget install -e Google.Chrome -h
 if %ERRORLEVEL% EQU 0 Echo Chrome installed successfully.
+
+REM CPUID CPU-Z
+winget install -e CPUID.CPU-Z -h
+if %ERRORLEVEL% EQU 0 Echo CPU-Z installed successfully.
+
+REM CPUID HWMonitor
+winget install -e CPUID.HWMonitor -h
+if %ERRORLEVEL% EQU 0 Echo HWMonitor installed successfully.
 
 REM Discord
 winget install -e Discord.Discord -h
@@ -52,10 +56,6 @@ REM Gpg4win
 winget install -e GnuPG.Gpg4win -h
 if %ERRORLEVEL% EQU 0 Echo Gpg4win installed successfully.
 
-REM Greenshot
-winget install -e Greenshot.Greenshot -h
-if %ERRORLEVEL% EQU 0 Echo Greenshot installed successfully.
-
 REM grepWin
 winget install -e StefansTools.grepWin -h
 if %ERRORLEVEL% EQU 0 Echo grepWin installed successfully.
@@ -63,6 +63,30 @@ if %ERRORLEVEL% EQU 0 Echo grepWin installed successfully.
 REM Malwarebytes
 winget install -e Malwarebytes.Malwarebytes -h
 if %ERRORLEVEL% EQU 0 Echo Malwarebytes installed successfully.
+
+REM MullvadVPN
+winget install -e MullvadVPN.MullvadVPN -h
+if %ERRORLEVEL% EQU 0 Echo MullvadVPN installed successfully.
+
+REM MusicBee
+winget install -e MusicBee.MusicBee -h
+if %ERRORLEVEL% EQU 0 Echo MusicBee installed successfully.
+
+REM Microsoft Visual Studio Code
+winget install -e Microsoft.VisualStudioCode -h
+if %ERRORLEVEL% EQU 0 Echo Visual Studio Code installed successfully.
+
+REM Microsoft Visual Studio Community 2022
+winget install -e Microsoft.VisualStudio.2022.Community -h
+if %ERRORLEVEL% EQU 0 Echo Microsoft.VisualStudio.2022.Community installed successfully.
+
+REM Microsoft SQL Server 2019 Developer
+winget install -e Microsoft.SQLServer.2019.Developer -h
+if %ERRORLEVEL% EQU 0 Echo Microsoft SQL Server 2019 Developer installed successfully.
+
+REM Microsoft SQL Server Management Studio
+winget install -e Microsoft.SQLServerManagementStudio -h
+if %ERRORLEVEL% EQU 0 Echo Microsoft SQL Server Management Studio installed successfully.
 
 REM OBS Studio
 winget install -e OBSProject.OBSStudio -h
@@ -96,6 +120,10 @@ REM Spotify
 winget install -e Spotify.Spotify -h
 if %ERRORLEVEL% EQU 0 Echo Spotify installed successfully.
 
+REM Sourcetree
+winget install -e Atlassian.Sourcetree -h
+if %ERRORLEVEL% EQU 0 Echo Sourcetree installed successfully.
+
 REM TeamViewer
 winget install -e TeamViewer.TeamViewer -h
 if %ERRORLEVEL% EQU 0 Echo  TeamViewer installed successfully.
@@ -107,6 +135,10 @@ if %ERRORLEVEL% EQU 0 Echo Telegram installed successfully.
 REM Terminal
 winget install -e Microsoft.WindowsTerminal -h
 if %ERRORLEVEL% EQU 0 Echo Terminal installed successfully.
+
+REM TickTick
+winget install -e Appest.TickTick -h
+if %ERRORLEVEL% EQU 0 Echo  TeamViewer installed successfully.
 
 REM Trading View
 winget install -e TradingView.TradingViewDesktop -h
@@ -123,14 +155,6 @@ if %ERRORLEVEL% EQU 0 Echo Ubuntu installed successfully.
 REM VirtualBox
 winget install -e Oracle.VirtualBox -h
 if %ERRORLEVEL% EQU 0 Echo VirtualBox installed successfully.
-
-REM Visual Studio Code
-winget install -e Microsoft.VisualStudioCode -h
-if %ERRORLEVEL% EQU 0 Echo Visual Studio Code installed successfully.
-
-REM Visual Studio Community 2022
-winget install -e Microsoft.VisualStudio.2022.Community -h
-if %ERRORLEVEL% EQU 0 Echo Microsoft.VisualStudio.2022.Community installed successfully.
 
 REM VLC
 winget install -e VideoLAN.VLC -h
