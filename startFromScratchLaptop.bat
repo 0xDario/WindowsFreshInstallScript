@@ -15,17 +15,9 @@ REM 7Zip
 winget install -e 7zip.7zip -h --accept-package-agreements --accept-source-agreements
 if %ERRORLEVEL% EQU 0 Echo 7Zip installed successfully.
 
-REM Adobe Acrobat Reader DC
-winget install -e Adobe.Acrobat.Reader.64-bit
-if %ERRORLEVEL% EQU 0 Echo Adobe Acrobat Reader DC (64-bit) installed successfully.
-
 REM Brave
 winget install -e Brave.Brave -h --accept-package-agreements --accept-source-agreements
 if %ERRORLEVEL% EQU 0 Echo Brave installed successfully.
-
-REM Chrome
-winget install -e Google.Chrome -h --accept-package-agreements --accept-source-agreements
-if %ERRORLEVEL% EQU 0 Echo Chrome installed successfully.
 
 REM CPUID CPU-Z
 winget install -e CPUID.CPU-Z -h --accept-package-agreements --accept-source-agreements
